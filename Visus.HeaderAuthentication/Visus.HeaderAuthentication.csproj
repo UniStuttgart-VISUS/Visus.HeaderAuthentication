@@ -9,6 +9,11 @@
     <Authors>Christoph Müller</Authors>
     <Company>Visualisierungsinstitut der Universität Stuttgart</Company>
     <Copyright>© 2024 Visualisierungsinstitut der Universität Stuttgart.</Copyright>
+    <PackageProjectUrl>https://github.com/UniStuttgart-VISUS/Visus.HeaderAuthentication</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/UniStuttgart-VISUS/Visus.HeaderAuthentication</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0-pre</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,6 +38,13 @@
 
   <ItemGroup>
     <Folder Include="Validation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
