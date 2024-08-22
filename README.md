@@ -7,12 +7,15 @@ This library implements middleware to add authentication schemes bases on HTTP h
 In your application setup, add something like this:
 ```C#
 builder.Services.AddHeaderAuthentication("MyScheme", o => {
-    // Note: It is important that the authentication scheme and the
-    // authentication type passed to the handler are the same.
     o.HeaderHandler = new BasicHeaderHandler("MyScheme", new Dictionary<string, string> {
         { "user1", "password1" },
         { "user2", "password2" }
     });
+
+    // The following changes the header processed by the authentication
+    // handler. If not customised, the standard "Authorization" header is
+    // used.
+    o.HeaderName = "Auth";
 });
 ```
 
