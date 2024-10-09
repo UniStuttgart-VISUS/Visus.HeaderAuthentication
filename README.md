@@ -1,5 +1,5 @@
 # ASP.NET Core HTTP-header authentication middleware
-[![Visus.HeaderAuthentication](https://buildstats.info/nuget/Visus.HeaderAuthentication)](https://www.nuget.org/packages/Visus.HeaderAuthentication)
+[![Visus.HeaderAuthentication](https://img.shields.io/nuget/v/Visus.HeaderAuthentication.svg)](https://www.nuget.org/packages/Visus.HeaderAuthentication)
 
 This library implements middleware to add authentication schemes bases on HTTP headers to an ASP.NET Core application.
 
